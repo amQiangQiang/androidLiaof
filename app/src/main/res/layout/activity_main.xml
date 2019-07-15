@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+   <Button
+       android:id="@+id/btn_zidingyi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button_style"
+       android:text="自定义控件"/>
+   <xxq.wlxy.dayfive.Customer_ButtonActivity
+       android:layout_width="match_parent"
+       android:background="@drawable/button_style"
+       android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/btn_yinru"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button_style"
+       android:text="引入布局"/>
+   <Button
+       android:id="@+id/listview11"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button_style"
+       android:text="listview"/>
+   <Button
+       android:id="@+id/reclerView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/button_style"
+       android:text="reclerView"/>
+   <Button
+       android:id="@+id/liaotian"
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/btn"
+       android:text="reclerView聊天界面"/>
+</LinearLayout>

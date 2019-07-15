@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DayFive</string>
+    <drawable name="clr_normal">#ffffff</drawable>
+    <drawable name="clr_pressed">#a44100</drawable>
+</resources>
